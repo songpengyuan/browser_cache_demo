@@ -1,0 +1,23 @@
+{
+  "name": "http-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node 1_index.js",
+    "expires": "node 2_expires.js",
+    "cache-control": "node 3_cache-control.js",
+    "last-modified": "node 4_last-modified.js",
+    "etag": "node 5_etag.js",
+    "pragma": "node 6_pragma.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "md5": "^2.3.0"
+  }
+}
